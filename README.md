@@ -2,7 +2,7 @@
 Software for animating 3D characters
 
 # Requirements
-Requires tthe latest version of Lazarus - http://www.lazarus-ide.org/
+Requires the latest version of Lazarus - http://www.lazarus-ide.org/  
 Requires the GLScene Lazarus package
 
 # License
