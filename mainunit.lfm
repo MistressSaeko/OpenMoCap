@@ -1,0 +1,24 @@
+object MainForm: TMainForm
+  Left = 243
+  Height = 720
+  Top = 84
+  Width = 1280
+  Caption = 'OpenMoCap'
+  DockSite = True
+  Menu = MainMenu1
+  UseDockManager = True
+  LCLVersion = '1.6.2.0'
+  object MainMenu1: TMainMenu
+    top = 25
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      OnClick = MenuItem1Click
+      object mnuImport: TMenuItem
+        Caption = 'Import Rigged Mesh'
+      end
+      object mnuExit: TMenuItem
+        Caption = 'Exit'
+      end
+    end
+  end
+end

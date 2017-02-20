@@ -1,0 +1,12 @@
+object ViewerForm: TViewerForm
+  Left = 997
+  Height = 240
+  Top = 27
+  Width = 320
+  Caption = 'Viewer'
+  DragKind = dkDock
+  DragMode = dmAutomatic
+  FormStyle = fsMDIChild
+  UseDockManager = True
+  LCLVersion = '1.6.2.0'
+end
